@@ -1,0 +1,104 @@
+body {
+    background-image: url(images/youngwoman.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2rem;
+  }
+
+  
+  
+  .container {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    text-align: center;
+    background-color: #333333;
+    color: white;
+    opacity: 0.8;
+    padding: 6rem;
+  }
+
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    background-color: #0469ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0469ff;
+  }
+
+  .signupnow{
+    color: #5FACE4;
+    text-decoration: none;
+  }
+
+  .firstpay{
+    background-color: white;
+    color: black;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .social-media {
+    margin-top: 20px;
+  }
+  
+  .social-icon {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-icon img {
+    width: 30px;
+    height: 30px;
+  }
+
+.pricing-heading{
+  margin-left: 47%;
+}
+
+.pricing{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: start;
+  padding: 1.5rem;
+}
+
+.first{
+  background-color: #0469ff;
+  padding: 3rem;
+  color: white;
+}
+
+.second , .third{
+  background-color: white;
+  padding: 3rem;
+}
+  

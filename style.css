@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+}
+
+.back{
+    background: url(images/young-woman-manager-checking-business-statistics-financial-reports-laptop-working-start-up-office-late-night\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header{
+    background-color: #13222E75;
+}
+
+.begin{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 2rem; */
+    /* background-color: #13222E75; */
+    padding: 10px;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.list li a{
+    text-decoration: none;
+    color: white;
+}
+
+.start{
+    padding: 10px;
+    background-color: #9FCDEF;
+    border-radius: 10px;
+    
+}
+.start a{
+    text-decoration: none;
+    color: white;
+}
+
+.log{
+    margin-right: -16rem;
+}
+
+.sect{
+    background-image: url("images/young-woman.png");
+    /* background-repeat: repeat-x; */
+    padding: 1rem;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 40rem;
+}
+.section-1{
+    margin-top: 4rem;
+    color: white;
+    
+}
+
+.section-1-text h2{
+    font-size: 45px;
+    margin-top: 60px;
+}
+
+/* professional container */
+.professionalContainer,
+.cards_container{
+  padding: 4rem;
+}
+.professionalContent_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.professionalHeader,
+.card_header{
+  font-size: 28px;
+  margin: 30px 0;
+  text-transform: uppercase;
+}
+
+.cardsText{
+  line-height: 32px;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 30px;
+  width: 30%;
+  overflow-y: hidden;
+}
+.professionalImageContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.profImages{
+  width: 100%;
+  margin: 20px;
+  /* overflow-y: hidden; */
+}
+.proImage:hover{
+  transition: ease-in-out all 0.3s;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.proImage{
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* cards section styles */
+
+.cardbackground{
+    background-color: #BFDEF4; 
+}
+.cards_container{
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: #BFDEF4; */
+  }
+
+/* Icons sections */
+.iconsContainer{
+    display: flex;
+    flex-direction: row;
+    padding: 4rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #BFDEF4;
+  }
+  .icon1con,
+  .icon2con,
+  .icon3con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .iconsHeader{
+    margin: 30px 0;
+    width: 60px;
+    font-size: 28px;
+    text-align: center;
+    line-height: 40px;
+    overflow-y: hidden;
+  }
+  .iconContent{
+    width: 60%;
+    line-height: 32px;
+    font-size: 18px;
+    text-align: center;
+    overflow-y: hidden;
+  }
+
+.solution{
+    background-color: #DFEEFA;
+}
+
+.solutionText{
+    line-height: 32px;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+    width: 70%;
+    overflow-y: hidden;
+  }
+
+.number{
+    color: black;
+}
+.start-number{
+    padding: 20px;
+    background-color:#BFDEF4;
+    border-radius: 50%;
+    
+}
+
+.section-2-header{
+    margin-left: 1rem;
+    font-weight: 700;
+}
+
+.section-2-text{
+    margin-left: 4.5rem;
+}
+
+.testimonial{
+    background-color: lightgrey;
+    padding: 40px;
+}
+.test{
+    margin-bottom: -80px;
+}
+
+.signup{
+    width: 600px;
+    height: 600px;
+    background-image: url("images/young-woman.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    
+}
+
+.pricing-background{
+  background-color: #BFDEF4;
+  padding: 3rem;
+}
+
+.pricing-heading p{
+  margin-left: -15rem;
+} 
+
+
+
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 8px;
+  background-color: #0469ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0469ff;
+}
+
+.firstpay{
+  background-color: white;
+  color: black;
+  padding: 8px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+}
+
+.social-media {
+  margin-top: 20px;
+}
+
+.social-icon {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icon img {
+  width: 30px;
+  height: 30px;
+}
+
+.pricing-heading{
+margin-left: 47%;
+}
+
+.pricing{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: start;
+padding: 1.5rem;
+}
+
+.first{
+background-color: #0469ff;
+padding: 3rem;
+color: white;
+}
+
+.second , .third{
+background-color: white;
+padding: 3rem;
+}
+
+footer{
+  background-color: black;
+  color: white;
+}
+
+.foot{
+  color: white;
+}
+
+.end{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+
+}
+
+.list-end{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  color: white;
+}
+
+.list-end li {
+  list-style: none;
+  margin-right: 6px;
+  margin-top: 1rem;
+}
+
+.list-end li a{
+  text-decoration: none;
+  color: black;
+  padding: 2rem;
+  margin: 2rem;
+}
+
